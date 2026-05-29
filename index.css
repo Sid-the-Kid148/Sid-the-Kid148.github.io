@@ -1,6 +1,8 @@
 body {
-    background-color: lightgray;
-    font-size: 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: white;
 }
 
 header{
@@ -8,4 +10,8 @@ header{
     padding: 30px;
     text-align: center;
     border-bottom: 4px solid red;
+}
+
+header h1 {
+    
 }
