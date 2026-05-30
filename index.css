@@ -5,15 +5,111 @@ body {
     color: white;
 }
 
-header{
+header {
     background-color: black;
     padding: 30px;
     text-align: center;
     border-bottom: 4px solid red;
 }
 
-header h1{
+.logo {
+    width: 220px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+header h1 {
     margin: 0;
     font-size: 48px;
     color: red;
+}
+
+header p {
+    color: lightgray;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #2e2e2e;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #444;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    margin: 0 10px;
+    border: 2px solid red;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.active {
+    background-color: red;
+    color: white;
+}
+
+.hero {
+    background-color: #3a3a3a;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    color: red;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: auto;
+    color: lightgray;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.section h3 {
+    color: red;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    color: lightgray;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.class-list {
+    list-style: none;
+    padding: 0;
+}
+
+.class-list li {
+    margin: 15px 0;
+    font-size: 20px;
+    color: lightgray;
+}
+
+footer {
+    background-color: black;
+    color: gray;
+    text-align: center;
+    padding: 20px;
+    border-top: 4px solid red;
+    margin-top: 50px;
 }
