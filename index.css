@@ -80,29 +80,59 @@ nav a {
     padding: 60px 20px;
 }
 
+.section h2 {
+    color: red;
+    font-size: 38px;
+}
+
 .section h3 {
     color: red;
-    font-size: 32px;
-    margin-bottom: 20px;
 }
 
 .section p {
     color: lightgray;
-    max-width: 800px;
+}
+
+.intro {
+    max-width: 900px;
     margin: auto;
+    margin-bottom: 40px;
     line-height: 1.8;
-    font-size: 18px;
 }
 
-.class-list {
-    list-style: none;
-    padding: 0;
+.classes-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+    max-width: 1200px;
+    margin: auto;
 }
 
-.class-list li {
-    margin: 15px 0;
-    font-size: 20px;
+.class-card {
+    background-color: #2e2e2e;
+    border-left: 5px solid red;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+}
+
+.class-card h3 {
+    margin-top: 0;
+    color: red;
+}
+
+.class-card p {
     color: lightgray;
+    line-height: 1.6;
+}
+
+.schedule-image {
+    width: 100%;
+    max-width: 1000px;
+    display: block;
+    margin: 40px auto;
+    border: 3px solid red;
+    border-radius: 10px;
 }
 
 footer {
@@ -112,4 +142,9 @@ footer {
     padding: 20px;
     border-top: 4px solid red;
     margin-top: 50px;
+}
+
+footer a {
+    color: lightgray;
+    text-decoration: none;
 }
