@@ -148,3 +148,30 @@ footer a {
     color: lightgray;
     text-decoration: none;
 }
+
+.instructors-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+    gap: 25px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.instructor-card {
+    background-color: #2e2e2e;
+    border-left: 5px solid red;
+    border-radius: 8px;
+    padding: 25px;
+    text-align: left;
+}
+
+.instructor-card h3 {
+    color: red;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.instructor-card p {
+    color: lightgray;
+    line-height: 1.8;
+}
