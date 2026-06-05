@@ -135,20 +135,6 @@ nav a {
     border-radius: 10px;
 }
 
-footer {
-    background-color: black;
-    color: gray;
-    text-align: center;
-    padding: 20px;
-    border-top: 4px solid red;
-    margin-top: 50px;
-}
-
-footer a {
-    color: lightgray;
-    text-decoration: none;
-}
-
 .instructors-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr)
@@ -174,4 +160,18 @@ footer a {
 .instructor-card p {
     color: lightgray;
     line-height: 1.8;
+}
+
+footer {
+    background-color: black;
+    color: gray;
+    text-align: center;
+    padding: 20px;
+    border-top: 4px solid red;
+    margin-top: 50px;
+}
+
+footer a {
+    color: lightgray;
+    text-decoration: none;
 }
